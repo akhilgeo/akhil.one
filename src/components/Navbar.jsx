@@ -58,11 +58,11 @@ const Navbar = (props) => {
           <li className="nav-item">
             <a
               className="nav-link lead"
-              href={Pdf}
+              href={"https://akhilgeorge.com}
               target="_blank"
               rel="noreferrer noopener"
             >
-              <b>Resume</b>
+              <b>Blog</b>
             </a>
           </li>
           <li className="nav-item">
