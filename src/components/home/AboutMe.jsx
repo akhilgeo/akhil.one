@@ -61,13 +61,13 @@ const AboutMe = () => {
               <p className="lead text-center">
                 <a
                   className="btn btn-outline-dark btn-lg"
-                  href={Pdf}
+                  href={"https://akhilgeorge.com"}
                   target="_blank"
                   rel="noreferrer noopener"
                   role="button"
                   aria-label="Resume/CV"
                 >
-                  Resume
+                  Blog
                 </a>
               </p>
             )}
