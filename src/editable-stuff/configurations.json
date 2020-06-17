@@ -5,7 +5,7 @@
   "FirstName": "Akhil",
   "MiddleName": "Abraham",
   "LastName": "George",
-  "devDesc": "| Engineer | Programmer | Web Developer | Photographer | Gamer",
+  "devDesc": "| Engineer | Programmer | SAP Consultant | Photographer | Gamer",
   "icons": [
     {
       "id": 0,
@@ -43,7 +43,7 @@
   "instaLink": "https://www.instagram.com/",
   "instaUsername": "akhilgeo",
   "instaQuerry": "/?__a=1",
-  "aboutDescription": "I'm Computer Engineer ",
+  "aboutDescription": "My name is Akhil Abraham George and this is my space on the interwebs. I am a blogger living in kerala. I work as an SAP SD Consultant at Infosys. My other interests include gaming and coding.",
   "projectHeading": "Recent Projects",
   "gitHubLink": "https://api.github.com/users/",
   "gitHubUsername": "akhilgeo",
