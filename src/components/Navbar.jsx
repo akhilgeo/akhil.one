@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Pdf from "../editable-stuff/resume.pdf";
 import { showBlog, FirstName } from "../editable-stuff/configurations.json";
 
 const Navbar = (props) => {
@@ -16,8 +15,8 @@ const Navbar = (props) => {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg fixed-top navbar-light ${
-        isTop ? "bg-transparent" : "bg-gradient"
+      className={`navbar navbar-expand-lg fixed-top navbar-dark ${
+        isTop ? "bg-transparent" : "bg-black"
       } `}
     >
       <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
@@ -47,14 +46,7 @@ const Navbar = (props) => {
               </Link>
             </li>
           )}
-          <li className="nav-item">
-            <a
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#projects"}
-            >
-              Projects
-            </a>
-          </li>
+      
 
           <li className="nav-item">
             <a
@@ -62,6 +54,15 @@ const Navbar = (props) => {
               href={process.env.PUBLIC_URL + "/#aboutme"}
             >
               <b>About</b>
+            </a>
+          </li>
+		  
+		      <li className="nav-item">
+            <a
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#projects"}
+            >
+              Projects
             </a>
           </li>
 		  

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+﻿import React, { useState } from "react";
 import Typist from "react-typist";
 import {
   FirstName,
@@ -6,10 +6,11 @@ import {
   MiddleName,
   devDesc,
   icons,
+  backgroundType,
 } from "../../editable-stuff/configurations.json";
 
 const MainBody = () => {
-  // const [backgroundType, setBackgroundType] = useState(Configs.backgroundType);
+  // const [backgroundType, setBackgroundType];
   const [hoverstatus, setHoverstatus] = useState(
     new Array(icons.length).fill("socialicons")
   );
