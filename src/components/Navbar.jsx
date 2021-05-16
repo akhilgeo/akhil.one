@@ -20,7 +20,7 @@ const Navbar = (props) => {
       } `}
     >
       <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
-        {`<${FirstName} />`}
+        {`<akhilgeo/>`}
       </a>
       <button
         className="navbar-toggler"
@@ -48,32 +48,18 @@ const Navbar = (props) => {
           )}
       
 
-          <li className="nav-item">
-            <a
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
-            >
-              <b>About</b>
-            </a>
-          </li>
-		  
-		      <li className="nav-item">
-            <a
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#projects"}
-            >
-              Projects
-            </a>
-          </li>
+
 		  
 		   <li className="nav-item">
             <a
               className="nav-link lead"
               href={"https://akhilgeorge.com"}
             >
-              <b>Blog</b>
+              <b></b>
             </a>
           </li>
+		  
+
         </ul>
       </div>
     </nav>
